@@ -1,0 +1,27 @@
+{
+  "name": "textlint-isssue78",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/textlint-isssue78.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/textlint-isssue78",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/textlint-isssue78/issues"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "textlint": "textlint --plugin textlint-plugin-jtf-style index.md README.md"
+  },
+  "description": "",
+  "devDependencies": {
+    "textlint": "^4.7.6",
+    "textlint-plugin-jtf-style": "^0.8.5"
+  }
+}
