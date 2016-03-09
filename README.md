@@ -4,6 +4,10 @@ This repository reproduce textlint/issues/78
 
 - https://github.com/textlint/textlint/issues/78
 
+## Problem
+
+Duplicated error messages caused by file order.
+
 ## Installation
 
   npm install
